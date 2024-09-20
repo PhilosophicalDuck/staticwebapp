@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>info</title>
+    <link rel="stylesheet" href="Style.css"/>
+</head>
+<body>
+<div class="topnav">
+    <button class="pure-button" onclick="location.href='index.html'">Main page</button>
+    <button class="pure-button" onclick="location.href='about-us.html'">About us</button>
+</div>
+<div class="top">
+    <h1>Contact Us
+    </h1>
+    <img src="Images/duck.jpg" style="width:200px;height:220px;"/>
+</div>
+<h3>
+    Let us know your thoughts about your experience at the garage.
+</h3>
+<p>
+
+</p>
+<div class="contact">
+    You are encouraged to contact us through facebook, e-mail, or phone.
+    <p>
+    </p>
+    <section style="text-align: center;"/>
+    <img src="Images/contact.webp" height="120px;">
+    <section>
+        <table style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <th>Email</th>
+                <td>ducksGarage@work.com</td>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <td>336-854-9090</td>
+            </tr>
+            <tr>
+                <th>Facebook</th>
+                <td>facebook.com/ducksgarage</td>
+            </tr>
+        </table>
+    </section>
+</div>
+<p>
+
+</p>
+<div class="container">
+    <form action="action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="reason">Reason for contact</label>
+        <select id="reason" name="reason">
+            <option value="price-check">Price check</option>
+            <option value="status">Car status</option>
+            <option value="scheduling">Scheduling</option>
+            <option value="job">Job inquiry</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </form>
+    <button class="pure-button" onclick="location.href='thanks.html'">Submit</button>
+</div>
+
+</body>
+<footer>
+    <p>
+        Created by: Logan Keiper <br>
+        All rights reserved
+    </p>
+</footer>
+</html>
